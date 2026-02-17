@@ -13,7 +13,13 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ironicbrew.reactnativetodo",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "To Do",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "008d089f-1f38-4b08-a9c2-a8b01d103c03"
+      }
     }
   }
 }
